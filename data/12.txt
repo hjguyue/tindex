@@ -1,0 +1,5 @@
+    1.
+   Which of these is not one of the constraints of a project? A. Scope
+B. Resources
+C. Team
+D. Budget C
