@@ -49,7 +49,7 @@ def clear(entities):
 			strs[i] = str.strip()
 			i += 1
 		s = strs[ord(entity.answer) - 65]
-		entity.answer = trie_cut(s, strs, 2)
+		entity.answer = trie_cut(s, strs, 4)
 		# if entity.answer == None:
 		# 	print entity.answer, entity.id, entity.offset
 		result = "%s (%s-%s) %s" % (entity.shortQuestion, entity.id, entity.offset, entity.answer)
